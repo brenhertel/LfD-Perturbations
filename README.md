@@ -1,7 +1,7 @@
 # LfD-Perturbations
  Implementation of Perturbation Analysis for Learning from Demonstration (LfD).
 
-Corresponding paper can be found for free [here](https://arxiv.org/abs/2208.02207), please read for method details. Accompanying video available [here](https://youtu.be/IQDxbhEiNbk).
+Corresponding paper can be found for free [here](https://arxiv.org/abs/2305.03091), please read for method details. Accompanying video available [here](https://youtu.be/IQDxbhEiNbk).
 
 Several methods exist for teaching robots, with one of the most prominent being Learning from Demonstration (LfD). Many LfD representations can be formulated as constrained optimization problems. We propose a novel convex formulation of the LfD problem represented as elastic maps, which models reproductions as a series of connected springs. Relying on the properties of strong duality and perturbation analysis of the constrained optimization problem, we create a confidence metric. Our method allows the demonstrated skill to be reproduced with varying confidence level yielding different levels of smoothness and flexibility. Our confidence-based method provides reproductions of the skill that perform better for a given set of constraints. By analyzing the constraints, our method can also remove unnecessary constraints. We validate our approach using several simulated and real-world experiments using a Jaco2 7DOF manipulator arm.
 
