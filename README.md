@@ -15,7 +15,6 @@ If you use the code present in this repository, please cite the following paper:
   title={Confidence-Based Skill Reproduction Through Perturbation Analysis},
   author={Hertel, Brendan and S. Reza Ahmadzadeh},
   booktitle={20th International Conference on Ubiquitous Robots (UR)},
-  year={2023},
-  organization={IEEE}
+  year={2023}
 }
 ```
