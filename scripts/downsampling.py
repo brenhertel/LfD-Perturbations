@@ -226,7 +226,7 @@ def DouglasPeuckerPoints2(PointList, num_points):
 if __name__ == '__main__':
     from utils import get_lasa_trajn
     import matplotlib.pyplot as plt
-    [x, y] = get_lasa_trajn('Leaf_1')
+    [x, y] = get_lasa_trajN('Leaf_1')
 
     traj = np.hstack((np.reshape(x, (len(x), 1)), np.reshape(y, (len(y), 1))))
     
